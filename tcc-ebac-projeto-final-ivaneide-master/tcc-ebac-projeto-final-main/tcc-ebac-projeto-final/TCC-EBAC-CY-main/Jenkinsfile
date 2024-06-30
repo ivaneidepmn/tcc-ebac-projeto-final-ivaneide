@@ -5,7 +5,7 @@ pipeline {
         
         stage('Clonar repositorio') {
             steps {
-                git branch: 'main', url: 'https://github.com/ivaneidepmn/tcc-ebac-projeto-final.git' 
+                git branch: 'main', url: 'https://github.com/ivaneidepmn/tcc-ebac-projeto-final-ivaneide.git' 
             }
         }
         stage('Instalar dependencias necessarias') {
